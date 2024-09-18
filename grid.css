@@ -1,0 +1,90 @@
+.grid-container{
+    display: grid;
+    grid-template-rows:auto auto auto ;
+    grid-template-columns:auto auto auto;
+     background-color: aqua;
+     height:600px;
+    grid-gap: 10px 10px;
+}
+.griditems1{
+    background-color: rgb(241, 40, 40);
+    grid-column: 1/3;
+    grid-row: 1/4;
+    align-content: center;
+    text-align: center;
+}
+.griditems2{
+    background-color: rgb(236, 48, 173);
+   grid-row: 1/3;
+    align-content: center;
+    text-align: center;
+}
+.griditems3{
+    background-color: rgb(129, 60, 218);
+    align-content: center;
+    text-align: center;
+   
+}
+.griditems4{
+    background-color: rgb(58, 199, 241);
+    grid-column: 1/2;
+    grid-row: 4/6;
+    align-content: center;
+    text-align: center;
+}  
+.griditems5{
+    background-color: rgb(181, 32, 204);
+    
+    align-content: center;
+    text-align: center;
+   
+}
+.griditems6{
+    background-color: rgb(41, 228, 141);
+    grid-column: 2/4;
+    grid-row: 4/7;
+    align-content: center;
+    text-align: center;
+   
+}
+.griditems7{
+    background-color: rgb(194, 236, 7);
+    grid-column: 1/3;
+    grid-row: 7/10;
+    align-content: center;
+    text-align: center;
+    
+}
+.griditems8{
+    background-color: rgb(5, 145, 17);
+    grid-row: 7/9;
+    align-content: center;
+    text-align: center;
+   
+}
+.griditems9{
+    background-color: rgb(177, 76, 18);
+    align-content: center;
+    text-align: center;
+    
+}
+.griditems10{
+    background-color: rgb(212, 216, 207);
+    grid-row: 10/12;
+    align-content: center;
+    text-align: center;
+   
+}
+.griditems11{
+    background-color: rgb(194, 103, 50);
+    align-content: center;
+    text-align: center;
+}
+.griditems12{
+    background-color: rgb(212, 81, 142);
+    grid-column: 2/4;
+    grid-row: 10/13;
+    align-content: center;
+    text-align: center;
+    
+}
